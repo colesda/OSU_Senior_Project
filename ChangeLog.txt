@@ -1,0 +1,26 @@
+
+January 13th, 2015
+David 
+-Added Image to sample imagine 
+-Updated Main Menu and Take a Model to 3.5in 
+-Added Apache License to Main Menu and Take a Model 
+-Created Model.swift, holds model info 
+
+
+
+
+January 13th, 2015
+David 
+-Moved verison number to the information view
+-Created Results view and swift file 
+-Created sample link from History to Results view. 
+-Created sample link from Camera View to Results view
+-Created sample link from Results view to Main Menu view.
+-Created swift file for History view
+-Created Sample Picture view and swift file with a two-way link from the main menu, UIImage, and two links(Compile RBG and HSV) to Sample Output.
+-Created Sample Output view and swift file with link back to Sample Picture
+
+Notes: 
+I made a couple of minor UI changes and links.  The biggest change was I created Sample Picture and Sample Output for testing the color values of an image.  
+
+
