@@ -12,22 +12,34 @@
 	<dict>
 		<key>AC98F2D86D51E074BB60AC44573FB1C6721F5350</key>
 		<string>https://github.com/colesda/SeniorProject.git</string>
+		<key>C5A9AA735BCF0D968CE282846EA5ECF201D1B2CB</key>
+		<string>https://github.com/colesda/OSU_Senior_Project.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>project_26_SP.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AC98F2D86D51E074BB60AC44573FB1C6721F5350</key>
+		<string>../../../SeniorProject</string>
+		<key>C5A9AA735BCF0D968CE282846EA5ECF201D1B2CB</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/colesda/SeniorProject.git</string>
+	<string>https://github.com/colesda/OSU_Senior_Project.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>AC98F2D86D51E074BB60AC44573FB1C6721F5350</string>
+	<string>C5A9AA735BCF0D968CE282846EA5ECF201D1B2CB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5A9AA735BCF0D968CE282846EA5ECF201D1B2CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OSU_Senior_Project</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

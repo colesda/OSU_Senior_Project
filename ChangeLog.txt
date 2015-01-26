@@ -1,4 +1,9 @@
 
+January 26th, 2015
+David 
+-Add RGBA converter, under RGBA_Converter 
+
+
 January 13th, 2015
 David 
 -Added Image to sample imagine 

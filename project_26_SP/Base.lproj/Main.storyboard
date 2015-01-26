@@ -637,11 +637,11 @@
         <image name="BlackSample" width="512" height="384"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hQq-sq-d1n"/>
-        <segue reference="2fY-A7-Wff"/>
-        <segue reference="ksh-Cx-6Zi"/>
-        <segue reference="waO-bR-S0z"/>
-        <segue reference="VUx-rd-gsb"/>
         <segue reference="yCC-ag-9d9"/>
+        <segue reference="VUx-rd-gsb"/>
+        <segue reference="M7f-b4-6T6"/>
+        <segue reference="ksh-Cx-6Zi"/>
+        <segue reference="hQq-sq-d1n"/>
+        <segue reference="waO-bR-S0z"/>
     </inferredMetricsTieBreakers>
 </document>

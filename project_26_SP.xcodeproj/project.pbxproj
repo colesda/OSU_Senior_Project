@@ -17,6 +17,7 @@
 		CA6C573C1A4B8AF40059C8B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6C573A1A4B8AF40059C8B9 /* LaunchScreen.xib */; };
 		CA6C57481A4B8AF40059C8B9 /* project_26_SPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C57471A4B8AF40059C8B9 /* project_26_SPTests.swift */; };
 		CA6C57541A4CA5390059C8B9 /* TakeMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */; };
+		CA8A44CC1A76DFE10029D948 /* RGBA_Converter  .swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A44CB1A76DFE10029D948 /* RGBA_Converter  .swift */; };
 		CACB51641A604DCE00027668 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB51631A604DCE00027668 /* Camera.swift */; };
 		CACB516A1A60531500027668 /* CameraRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB51691A60531500027668 /* CameraRoll.swift */; };
 		CAD4703E1A6C42B200C01B1C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4703D1A6C42B200C01B1C /* ImageView.swift */; };
@@ -51,6 +52,7 @@
 		CA6C57461A4B8AF40059C8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6C57471A4B8AF40059C8B9 /* project_26_SPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_26_SPTests.swift; sourceTree = "<group>"; };
 		CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeMeasurement.swift; sourceTree = "<group>"; };
+		CA8A44CB1A76DFE10029D948 /* RGBA_Converter  .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RGBA_Converter  .swift"; sourceTree = "<group>"; };
 		CACB51631A604DCE00027668 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = ../Camera.swift; sourceTree = "<group>"; };
 		CACB51691A60531500027668 /* CameraRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraRoll.swift; sourceTree = "<group>"; };
 		CAD4703D1A6C42B200C01B1C /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				CA4C66D81A65B66300B6B786 /* SamplePicture.swift */,
 				CA4C66DA1A65B9AE00B6B786 /* SampleOutput.swift */,
 				CA6C57331A4B8AF40059C8B9 /* ViewController.swift */,
+				CA8A44CB1A76DFE10029D948 /* RGBA_Converter  .swift */,
 				CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */,
 				CA6C572E1A4B8AF40059C8B9 /* AppDelegate.swift */,
 				CA6C57381A4B8AF40059C8B9 /* Images.xcassets */,
@@ -255,6 +258,7 @@
 				CACB51641A604DCE00027668 /* Camera.swift in Sources */,
 				CA4C66DB1A65B9AE00B6B786 /* SampleOutput.swift in Sources */,
 				CA6C57321A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld in Sources */,
+				CA8A44CC1A76DFE10029D948 /* RGBA_Converter  .swift in Sources */,
 				CA6C572F1A4B8AF40059C8B9 /* AppDelegate.swift in Sources */,
 				CA6C57541A4CA5390059C8B9 /* TakeMeasurement.swift in Sources */,
 				CAD470441A6C84CB00C01B1C /* ModelTable.swift in Sources */,
