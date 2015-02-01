@@ -15,5 +15,10 @@ extension UIImage {
         var a = CGFloat(data[pixelInfo+3]) / CGFloat(255.0)
         
         return UIColor(red: r, green: g, blue: b, alpha: a)
+        
+        //test
+        
+        
+        
     }
 }
