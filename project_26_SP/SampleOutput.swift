@@ -11,27 +11,28 @@ import UIKit
 import AVFoundation
 
 class SampleOutput: UIViewController {
-    /*@IBOutlet weak var xCoord: UILabel!
+    @IBOutlet weak var xCoord: UILabel!
     @IBOutlet weak var yCoord: UILabel!
     @IBOutlet weak var red: UILabel!
+    @IBOutlet weak var redAj: UILabel!
     @IBOutlet weak var green: UILabel!
     @IBOutlet weak var blue: UILabel!
-    @IBOutlet weak var redAj: UILabel!
     @IBOutlet weak var greenAj: UILabel!
     @IBOutlet weak var blueAj: UILabel!
- 
     
-    
+    @IBOutlet weak var hue: UILabel!
+    @IBOutlet weak var saturation: UILabel!
+    @IBOutlet weak var value: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    
-    
+       
+        
         var x = 55
         var y = 55
-        //xCoord.text = "\(x)"
-      //  yCoord.text = "\(y)"
+        xCoord.text = "\(x)"
+        yCoord.text = "\(y)"
         
         let testImagine = UIImage(named: "sample")
         let position = CGPoint(x: x, y: y)
@@ -51,16 +52,20 @@ class SampleOutput: UIViewController {
         let hsv = HsvConventer(redval, greenval, blueval)
         println("Adjusted RGB: \(redval*255) g: \(greenval*255) b: \(blueval * 255)")
         println("hue is \(hsv.hue), sat is \(hsv.saturation), value is \(hsv.value)")
-       
-        red.text = "\(redval)"
-        redAj.text = "\(redval*255)"
-        blue.text = "\(blueval)"
-        blueAj.text = "\(blueval*255)"
-        green.text = "\(greenval)"
-        greenAj.text = "\(greenval*255)"
-        */
         
-   // }
+        red.text = "\(redval)"
+        green.text = "\(greenval)"
+        blue.text = "\(blueval)"
+        
+        redAj.text = "\(redval*255)"
+        greenAj.text = "\(greenval*255)"
+        blueAj.text = "\(blueval*255)"
+        
+        hue.text = "\(hsv.hue)"
+        saturation.text = "\(hsv.saturation)"
+        value.text = "\(hsv.value)"
+        
+    }
     
     
     override func didReceiveMemoryWarning() {

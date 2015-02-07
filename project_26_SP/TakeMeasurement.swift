@@ -22,11 +22,13 @@ class TakeMeasurement: UIViewController, UIImagePickerControllerDelegate, UINavi
     @IBOutlet weak var imageView: UIImageView!
     
 
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         println("Test Requirement #2: 'Take a Measurement' Loaded")
     }
- 
+
     @IBAction func chooseImageFromPhotoLibrary(sender: AnyObject) {
         let picker = UIImagePickerController()
         picker.delegate = self

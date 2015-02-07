@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		846D0EAD1A86905100E9DF15 /* HsvConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D0EAC1A86905100E9DF15 /* HsvConverter.swift */; };
+		846D0EB11A86C14E00E9DF15 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D0EB01A86C14E00E9DF15 /* Structs.swift */; };
 		CA4C66D91A65B66300B6B786 /* SamplePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4C66D81A65B66300B6B786 /* SamplePicture.swift */; };
 		CA4C66DB1A65B9AE00B6B786 /* SampleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4C66DA1A65B9AE00B6B786 /* SampleOutput.swift */; };
 		CA6C572F1A4B8AF40059C8B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C572E1A4B8AF40059C8B9 /* AppDelegate.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		846D0EAC1A86905100E9DF15 /* HsvConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HsvConverter.swift; sourceTree = "<group>"; };
+		846D0EB01A86C14E00E9DF15 /* Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		CA4C66D81A65B66300B6B786 /* SamplePicture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SamplePicture.swift; path = ../SamplePicture.swift; sourceTree = "<group>"; };
 		CA4C66DA1A65B9AE00B6B786 /* SampleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleOutput.swift; sourceTree = "<group>"; };
 		CA6C57291A4B8AF40059C8B9 /* project_26_SP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project_26_SP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 				CA6C573A1A4B8AF40059C8B9 /* LaunchScreen.xib */,
 				CA6C57301A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld */,
 				CA6C572C1A4B8AF40059C8B9 /* Supporting Files */,
+				846D0EB01A86C14E00E9DF15 /* Structs.swift */,
 			);
 			path = project_26_SP;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846D0EB11A86C14E00E9DF15 /* Structs.swift in Sources */,
 				CA4C66D91A65B66300B6B786 /* SamplePicture.swift in Sources */,
 				CAED1AE11A65B06600CCC7B1 /* History.swift in Sources */,
 				CACB516A1A60531500027668 /* CameraRoll.swift in Sources */,
