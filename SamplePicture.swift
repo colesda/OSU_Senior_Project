@@ -16,56 +16,50 @@ struct RGB_Pixel_Data {
     var blue   = 0
 }
 
-
-
-
-/*extension UIImage {
-    func convertRGBAtoHSV(RGB_Pixel_Data){
-        struct convertRGBAtoHSV hsv
-        
-        CGFloat rgb_min, rgb_max
-        
-        
-        
-        
-        
-        
+func HsvConventer(r:CGFloat, g:CGFloat, b: CGFloat) -> (hue:CGFloat, saturation:CGFloat, value:CGFloat){
+    
+    
+    var delta: CGFloat
+    var s: CGFloat, h: CGFloat, v: CGFloat
+    var rgbMin: CGFloat
+    var rgbMax: CGFloat
+    
+    //r = 0.1953125
+    //b = CGFloat(0.78432137)
+    //g = CGFloat(0.3921568627)
+    
+    rgbMin = min(r, g, b)
+    rgbMax = max(r, g, b)
+    delta = rgbMax - rgbMin
+    v = rgbMax
+    
+    if(rgbMax != 0){
+        s = delta / rgbMax
     }
-    
-    
+    else{
+        s = 0
+        h = -1
+        //return?
+    }
+    if( r == rgbMax){
+        println("r")
+        h = (g - b) / delta
+    }
+    else if(g == rgbMax){
+        println("g")
+        h = 2 + (b - r) / delta
+    }
+    else{
+        println("b")
+        h = 4 + (r - g) / delta
+    }
+    h *= 60
+    if(h < 0){
+        h += 360
+    }
+    return(CGFloat(h), CGFloat(s), CGFloat(v))
 }
 
-/*
-+(struct hsv_color)HSVfromRGB:(struct rgb_color)rgb
-{
-struct hsv_color hsv;
-
-CGFloat rgb_min, rgb_max;
-rgb_min = MIN3(rgb.r, rgb.g, rgb.b);
-rgb_max = MAX3(rgb.r, rgb.g, rgb.b);
-
-if (rgb_max == rgb_min) {
-hsv.hue = 0;
-} else if (rgb_max == rgb.r) {
-hsv.hue = 60.0f * ((rgb.g - rgb.b) / (rgb_max - rgb_min));
-hsv.hue = fmodf(hsv.hue, 360.0f);
-} else if (rgb_max == rgb.g) {
-hsv.hue = 60.0f * ((rgb.b - rgb.r) / (rgb_max - rgb_min)) + 120.0f;
-} else if (rgb_max == rgb.b) {
-hsv.hue = 60.0f * ((rgb.r - rgb.g) / (rgb_max - rgb_min)) + 240.0f;
-}
-hsv.val = rgb_max;
-if (rgb_max == 0) {
-hsv.sat = 0;
-} else {
-hsv.sat = 1.0 - (rgb_min / rgb_max);
-}
-
-return hsv;
-}
-*/
-
-*/
 
 
 
@@ -86,14 +80,14 @@ class SamplePicture: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let green = UIImage(named: "BlackSample.png")
+        let green = UIImage(named: "sample")
         
-        
+     
         
         
         //let image1 = UIImage(named: "BlackSample")
         
-        let topLeft = CGPoint(x: 0, y: 0)
+        let topLeft = CGPoint(x: 55, y: 34)
         
         // Use your extension
         let greenColour = green?.getPixelColor(topLeft)
@@ -107,11 +101,9 @@ class SamplePicture: UIViewController {
             //getRed(&redval, green: &greenval, blue: &blueval, alpha: &alphaval)
         
         println("Green is r: \(redval) g: \(greenval) b: \(blueval) a: \(alphaval)")
-        
-        
-        
-        
-        
+        let hsv = HsvConventer(redval, greenval, blueval)
+        println("Adjusted RGB: \(redval*255) g: \(greenval*255) b: \(blueval * 255)")
+        println("hue is \(hsv.hue), sat is \(hsv.saturation), value is \(hsv.value)")
     }
     
     
