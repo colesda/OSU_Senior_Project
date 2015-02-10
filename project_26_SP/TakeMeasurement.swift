@@ -26,6 +26,8 @@ class TakeMeasurement: UIViewController, UIImagePickerControllerDelegate, UINavi
     @IBOutlet weak var modelSelected: UILabel!
     
 
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         println("Test Requirement #2: 'Take a Measurement' Loaded")

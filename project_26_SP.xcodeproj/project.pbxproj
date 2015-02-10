@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		24B820861A8AC8210050AC9B /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B820851A8AC8210050AC9B /* History.swift */; };
+=======
+>>>>>>> FETCH_HEAD
 		845E56A41A87E75600F0CCFC /* SelectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E56A31A87E75600F0CCFC /* SelectModel.swift */; };
 		846D0EAD1A86905100E9DF15 /* HsvConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D0EAC1A86905100E9DF15 /* HsvConverter.swift */; };
 		846D0EB11A86C14E00E9DF15 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D0EB01A86C14E00E9DF15 /* Structs.swift */; };
@@ -40,7 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		24B820851A8AC8210050AC9B /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = History.swift; path = ../History.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> FETCH_HEAD
 		845E56A31A87E75600F0CCFC /* SelectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectModel.swift; sourceTree = "<group>"; };
 		846D0EAC1A86905100E9DF15 /* HsvConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HsvConverter.swift; sourceTree = "<group>"; };
 		846D0EB01A86C14E00E9DF15 /* Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
@@ -110,7 +116,10 @@
 				CACB51691A60531500027668 /* CameraRoll.swift */,
 				CAD4703D1A6C42B200C01B1C /* ImageView.swift */,
 				846D0EAC1A86905100E9DF15 /* HsvConverter.swift */,
+<<<<<<< HEAD
 				24B820851A8AC8210050AC9B /* History.swift */,
+=======
+>>>>>>> FETCH_HEAD
 				CAD4703F1A6C56DB00C01B1C /* Models.swift */,
 				CAED1ADE1A65AF6000CCC7B1 /* Results.swift */,
 				CA4C66D81A65B66300B6B786 /* SamplePicture.swift */,
@@ -265,7 +274,10 @@
 				CACB51641A604DCE00027668 /* Camera.swift in Sources */,
 				CA4C66DB1A65B9AE00B6B786 /* SampleOutput.swift in Sources */,
 				846D0EAD1A86905100E9DF15 /* HsvConverter.swift in Sources */,
+<<<<<<< HEAD
 				24B820861A8AC8210050AC9B /* History.swift in Sources */,
+=======
+>>>>>>> FETCH_HEAD
 				CA6C57321A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld in Sources */,
 				CA8A44CC1A76DFE10029D948 /* RGBA_Converter  .swift in Sources */,
 				845E56A41A87E75600F0CCFC /* SelectModel.swift in Sources */,
