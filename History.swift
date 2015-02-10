@@ -16,22 +16,21 @@ limitations under the License.
 
 import UIKit
 
-class TakeMeasurement: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+class History: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
- 
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet var tableView: UITableView!
-    var items: [String] = ["Model 0", "Model 1", "Model 3"]
 
+    @IBOutlet var tableView: UITableView!
+    var items: [String] = ["Test 0", "Test 1", "Test 3"]
+    
     @IBOutlet weak var modelSelected: UILabel!
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("Test Requirement #2: 'Take a Measurement' Loaded")
+        println("Test Requirement #13: 'History' Loaded")
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
-
+    
     @IBAction func chooseImageFromPhotoLibrary(sender: AnyObject) {
         let picker = UIImagePickerController()
         picker.delegate = self
@@ -39,10 +38,6 @@ class TakeMeasurement: UIViewController, UIImagePickerControllerDelegate, UINavi
         presentViewController(picker, animated: true, completion: nil)
     }
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
-        imageView.image = (info[UIImagePickerControllerOriginalImage] as UIImage)
-        dismissViewControllerAnimated(true, completion: nil)
-    }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.items.count;
     }
@@ -56,8 +51,8 @@ class TakeMeasurement: UIViewController, UIImagePickerControllerDelegate, UINavi
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        println("Model \(indexPath.row) Selected")
-        modelSelected.text = "Model \(indexPath.row) Selected"
+        println("Test \(indexPath.row) Selected")
+        modelSelected.text = "Test \(indexPath.row) Selected"
         //unwindToList(segue: SampleOutput)
     }
     
