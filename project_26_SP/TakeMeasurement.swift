@@ -26,8 +26,6 @@ class TakeMeasurement: UIViewController, UIImagePickerControllerDelegate, UINavi
     @IBOutlet weak var modelSelected: UILabel!
     
 
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         println("Test Requirement #2: 'Take a Measurement' Loaded")
@@ -60,6 +58,7 @@ class TakeMeasurement: UIViewController, UIImagePickerControllerDelegate, UINavi
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("Model \(indexPath.row) Selected")
         modelSelected.text = "Model \(indexPath.row) Selected"
+        model.modelTest = indexPath.row
         //unwindToList(segue: SampleOutput)
     }
     

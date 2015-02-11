@@ -10,7 +10,17 @@
 import UIKit
 import AVFoundation
 
+struct model {
+    static var modelTest = 0
+    
+}
+
+
 class SampleOutput: UIViewController {
+    
+    
+    
+    
     @IBOutlet weak var xCoord: UILabel!
     @IBOutlet weak var yCoord: UILabel!
     @IBOutlet weak var red: UILabel!
@@ -23,14 +33,31 @@ class SampleOutput: UIViewController {
     @IBOutlet weak var hue: UILabel!
     @IBOutlet weak var saturation: UILabel!
     @IBOutlet weak var value: UILabel!
-    
+    var select = model.modelTest
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-       
+        var x = 0
+        var y = 0
+        if(select == 0){
+            x = 12
+            y = 233
+        }
+        if(select == 1){
+            x = 55
+            y = 55
+        }
+        if(select == 2){
+           x = 300
+           y = 123
+        }
+        //model1.modelTest = 3
+    
+        //if(model.modelTest == 0){
+        //var x = 55
+        //var y = 55
+        //}
         
-        var x = 55
-        var y = 55
         xCoord.text = "\(x)"
         yCoord.text = "\(y)"
         

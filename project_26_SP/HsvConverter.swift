@@ -1,14 +1,4 @@
-<<<<<<< HEAD
 
-=======
- 
- 
- 
- 
- 
- 
- 
->>>>>>> FETCH_HEAD
  //Note: Algorithm used from http://www.cs.rit.edu/~ncs/color/t_convert.html
  // R, G, B, is red, green, blue
  //H is the hue, which is a value between 0-360
