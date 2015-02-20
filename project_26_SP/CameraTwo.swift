@@ -181,7 +181,8 @@ class CameraTwo: UIViewController, AVCaptureFileOutputRecordingDelegate {
                 self.removeObserver(self, forKeyPath: "sessionRunningAndDeviceAuthorized", context: &SessionRunningAndDeviceAuthorizedContext)
                 
                 self.removeObserver(self, forKeyPath: "stillImageOutput.capturingStillImage", context: &CapturingStillImageContext)
-                self.removeObserver(self, forKeyPath: "movieFileOutput.recording", context: &SessionRunningAndDeviceAuthorizedContext)
+                //self.removeObserver(self, forKeyPath: "movieFileOutput.recording", context: &SessionRunningAndDeviceAuthorizedContext)
+                
                 
                 
             }
@@ -451,6 +452,7 @@ class CameraTwo: UIViewController, AVCaptureFileOutputRecordingDelegate {
     }
     
     @IBAction func snapMultipleImages(sender: AnyObject) {
+        loopCount = 0;
         timer = NSTimer.scheduledTimerWithTimeInterval(5.0, target: self, selector: "setup", userInfo: nil, repeats: true)
     }
     

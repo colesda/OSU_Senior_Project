@@ -778,6 +778,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dXK-2d-QBJ"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="modelSelected" destination="iaB-pu-gHu" id="0gQ-sH-ulw"/>
@@ -863,6 +864,16 @@
                                             <action selector="changeCamera:" destination="q4Z-l1-tJp" eventType="touchUpInside" id="daP-A5-7sl"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHb-Qw-bsb">
+                                        <rect key="frame" x="8" y="8" width="52" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="XsW-un-vN5" kind="show" id="Aar-Ha-Ezv"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -901,17 +912,17 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2554" y="-39"/>
+            <point key="canvasLocation" x="2554" y="-30"/>
         </scene>
     </scenes>
     <resources>
         <image name="sample" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="f0I-qt-6ca"/>
         <segue reference="2fY-A7-Wff"/>
-        <segue reference="IwQ-uX-DUU"/>
+        <segue reference="Aar-Ha-Ezv"/>
         <segue reference="5d6-0E-FY0"/>
         <segue reference="cem-H0-enY"/>
-        <segue reference="f0I-qt-6ca"/>
     </inferredMetricsTieBreakers>
 </document>
