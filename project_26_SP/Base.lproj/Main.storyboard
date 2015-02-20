@@ -709,17 +709,6 @@
                                     <segue destination="vXZ-lx-hvc" kind="presentation" id="2fY-A7-Wff"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rW-mD-IKz">
-                                <rect key="frame" x="193" y="391" width="127" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Camera Roll">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="chooseImageFromPhotoLibrary:" destination="XsW-un-vN5" eventType="touchUpInside" id="AsB-r8-e3S"/>
-                                    <segue destination="Emc-DK-E8z" kind="show" id="I5k-MW-O1Z"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take a Measurement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xly-Lx-2Xs">
                                 <rect key="frame" x="-7" y="0.0" width="335" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
@@ -762,7 +751,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="J3R-BP-iOa" kind="show" id="0ef-Ns-sSX"/>
+                                    <segue destination="VXe-HA-6N7" kind="show" id="mXR-jM-jhs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2al-eO-MhT">
@@ -773,6 +762,17 @@
                                 </state>
                                 <connections>
                                     <segue destination="TNn-FO-MhM" kind="show" id="5d6-0E-FY0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rW-mD-IKz">
+                                <rect key="frame" x="193" y="391" width="127" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Camera Roll">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseImageFromPhotoLibrary:" destination="XsW-un-vN5" eventType="touchUpInside" id="AsB-r8-e3S"/>
+                                    <segue destination="Emc-DK-E8z" kind="show" id="I5k-MW-O1Z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -787,45 +787,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xiW-QX-ZaA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2001" y="-30"/>
-        </scene>
-        <!--Camera-->
-        <scene sceneID="HcM-la-fPQ">
-            <objects>
-                <viewController id="J3R-BP-iOa" customClass="Camera" customModule="project_26_SP" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Y8h-YY-FfL"/>
-                        <viewControllerLayoutGuide type="bottom" id="r8E-oO-LhJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="2Ax-Ps-GPc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ky-2k-jut">
-                                <rect key="frame" x="122" y="436" width="77" height="30"/>
-                                <state key="normal" title="Main Menu">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="XsW-un-vN5" kind="show" id="J2G-XO-kmu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Jg-dd-Dzu">
-                                <rect key="frame" x="132" y="42" width="56" height="30"/>
-                                <state key="normal" title="Results">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="WNa-ZC-Trp" kind="show" id="waO-bR-S0z"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ysy-i9-LPM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2528" y="-42"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sRI-KF-pgv">
@@ -857,15 +818,100 @@
             </objects>
             <point key="canvasLocation" x="2312" y="738"/>
         </scene>
+        <!--Cam View Controller-->
+        <scene sceneID="AOL-zV-87b">
+            <objects>
+                <viewController id="VXe-HA-6N7" userLabel="Cam View Controller" customClass="CameraTwo" customModule="project_26_SP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8jN-sQ-mCx"/>
+                        <viewControllerLayoutGuide type="bottom" id="r7s-fc-tBj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="at8-u2-tvj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A01-bu-6T0" customClass="AVCamPreviewView" customModule="project_26_SP" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4V-mE-vLl">
+                                        <rect key="frame" x="53" y="422" width="64" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Record">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toggleMovieRecord:" destination="q4Z-l1-tJp" eventType="touchUpInside" id="Kpk-Kj-vLL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xd0-lU-Lk4">
+                                        <rect key="frame" x="137" y="422" width="47" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Snap">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="snapMultipleImages:" destination="q4Z-l1-tJp" eventType="touchUpInside" id="1a2-7n-0vk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAl-EY-44H">
+                                        <rect key="frame" x="204" y="422" width="70" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Camera">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeCamera:" destination="q4Z-l1-tJp" eventType="touchUpInside" id="daP-A5-7sl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Xd0-lU-Lk4" firstAttribute="bottom" secondItem="uAl-EY-44H" secondAttribute="bottom" id="4LE-wp-I1a"/>
+                                    <constraint firstItem="uAl-EY-44H" firstAttribute="leading" secondItem="Xd0-lU-Lk4" secondAttribute="trailing" constant="20" id="B5k-gs-klg"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xd0-lU-Lk4" secondAttribute="bottom" constant="22" id="R9k-P3-CmJ"/>
+                                    <constraint firstItem="x4V-mE-vLl" firstAttribute="trailing" secondItem="Xd0-lU-Lk4" secondAttribute="leading" constant="-20" id="hlI-Jd-c2e"/>
+                                    <constraint firstItem="Xd0-lU-Lk4" firstAttribute="bottom" secondItem="x4V-mE-vLl" secondAttribute="bottom" id="oPY-Ur-GXZ"/>
+                                    <constraint firstAttribute="centerX" secondItem="Xd0-lU-Lk4" secondAttribute="centerX" id="rv8-kH-Mpj"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="6FX-bQ-n2d" appends="YES" id="fhD-6G-USN"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="A01-bu-6T0" secondAttribute="trailing" id="Fb6-Xh-QVR"/>
+                            <constraint firstItem="A01-bu-6T0" firstAttribute="leading" secondItem="at8-u2-tvj" secondAttribute="leading" id="VrY-M1-ind"/>
+                            <constraint firstItem="A01-bu-6T0" firstAttribute="bottom" secondItem="r7s-fc-tBj" secondAttribute="top" id="Zu0-ab-eSz"/>
+                            <constraint firstItem="A01-bu-6T0" firstAttribute="top" secondItem="at8-u2-tvj" secondAttribute="top" id="haG-oW-tDn"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="cameraButton" destination="uAl-EY-44H" id="kCD-FG-N9R"/>
+                        <outlet property="previewView" destination="A01-bu-6T0" id="7L5-qE-X1c"/>
+                        <outlet property="recordButton" destination="x4V-mE-vLl" id="Dey-c9-9zx"/>
+                        <outlet property="snapButton" destination="Xd0-lU-Lk4" id="Y1i-TD-g5O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q4Z-l1-tJp" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="6FX-bQ-n2d">
+                    <connections>
+                        <action selector="focusAndExposeTap:" destination="VXe-HA-6N7" id="vgR-QN-Yxo"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2554" y="-39"/>
+        </scene>
     </scenes>
     <resources>
         <image name="sample" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="2fY-A7-Wff"/>
+        <segue reference="IwQ-uX-DUU"/>
         <segue reference="5d6-0E-FY0"/>
-        <segue reference="ksh-Cx-6Zi"/>
-        <segue reference="BsT-pK-JSU"/>
-        <segue reference="hQq-sq-d1n"/>
         <segue reference="cem-H0-enY"/>
+        <segue reference="f0I-qt-6ca"/>
     </inferredMetricsTieBreakers>
 </document>

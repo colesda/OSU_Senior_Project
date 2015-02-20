@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F6017DE1A96F53E002BD9E6 /* CameraTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6017DD1A96F53E002BD9E6 /* CameraTwo.swift */; };
+		0F6017E21A96FDCC002BD9E6 /* AVCamPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6017E11A96FDCC002BD9E6 /* AVCamPreviewView.swift */; };
 		24B820861A8AC8210050AC9B /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B820851A8AC8210050AC9B /* History.swift */; };
 		845E56A41A87E75600F0CCFC /* SelectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E56A31A87E75600F0CCFC /* SelectModel.swift */; };
 		846D0EAD1A86905100E9DF15 /* HsvConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D0EAC1A86905100E9DF15 /* HsvConverter.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F6017DD1A96F53E002BD9E6 /* CameraTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTwo.swift; sourceTree = "<group>"; };
+		0F6017E11A96FDCC002BD9E6 /* AVCamPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCamPreviewView.swift; sourceTree = "<group>"; };
 		24B820851A8AC8210050AC9B /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = History.swift; path = ../History.swift; sourceTree = "<group>"; };
 		845E56A31A87E75600F0CCFC /* SelectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectModel.swift; sourceTree = "<group>"; };
 		846D0EAC1A86905100E9DF15 /* HsvConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HsvConverter.swift; sourceTree = "<group>"; };
@@ -112,12 +116,14 @@
 				846D0EAC1A86905100E9DF15 /* HsvConverter.swift */,
 				24B820851A8AC8210050AC9B /* History.swift */,
 				CAD4703F1A6C56DB00C01B1C /* Models.swift */,
+				0F6017DD1A96F53E002BD9E6 /* CameraTwo.swift */,
 				CAED1ADE1A65AF6000CCC7B1 /* Results.swift */,
 				CA4C66D81A65B66300B6B786 /* SamplePicture.swift */,
 				CA4C66DA1A65B9AE00B6B786 /* SampleOutput.swift */,
 				CA6C57331A4B8AF40059C8B9 /* ViewController.swift */,
 				CA8A44CB1A76DFE10029D948 /* RGBA_Converter  .swift */,
 				CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */,
+				0F6017E11A96FDCC002BD9E6 /* AVCamPreviewView.swift */,
 				CA6C572E1A4B8AF40059C8B9 /* AppDelegate.swift */,
 				CA6C57381A4B8AF40059C8B9 /* Images.xcassets */,
 				CA6C573A1A4B8AF40059C8B9 /* LaunchScreen.xib */,
@@ -259,6 +265,7 @@
 				CA4C66D91A65B66300B6B786 /* SamplePicture.swift in Sources */,
 				CACB516A1A60531500027668 /* CameraRoll.swift in Sources */,
 				CAD470401A6C56DB00C01B1C /* Models.swift in Sources */,
+				0F6017E21A96FDCC002BD9E6 /* AVCamPreviewView.swift in Sources */,
 				CAED1ADF1A65AF6000CCC7B1 /* Results.swift in Sources */,
 				CAD4703E1A6C42B200C01B1C /* ImageView.swift in Sources */,
 				CA6C57341A4B8AF40059C8B9 /* ViewController.swift in Sources */,
@@ -266,6 +273,7 @@
 				CA4C66DB1A65B9AE00B6B786 /* SampleOutput.swift in Sources */,
 				846D0EAD1A86905100E9DF15 /* HsvConverter.swift in Sources */,
 				24B820861A8AC8210050AC9B /* History.swift in Sources */,
+				0F6017DE1A96F53E002BD9E6 /* CameraTwo.swift in Sources */,
 				CA6C57321A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld in Sources */,
 				CA8A44CC1A76DFE10029D948 /* RGBA_Converter  .swift in Sources */,
 				845E56A41A87E75600F0CCFC /* SelectModel.swift in Sources */,
