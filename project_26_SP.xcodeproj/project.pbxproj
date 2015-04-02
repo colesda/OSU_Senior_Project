@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F6017DE1A96F53E002BD9E6 /* CameraTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6017DD1A96F53E002BD9E6 /* CameraTwo.swift */; };
 		0F6017E21A96FDCC002BD9E6 /* AVCamPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6017E11A96FDCC002BD9E6 /* AVCamPreviewView.swift */; };
+		0F6017EA1ABA9443002BD9E6 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6017E91ABA9443002BD9E6 /* Results.swift */; };
 		24B820861A8AC8210050AC9B /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B820851A8AC8210050AC9B /* History.swift */; };
 		845565121A990CCC0064815B /* NewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845565111A990CCC0064815B /* NewModel.swift */; };
 		845565141A9915B10064815B /* CreateLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845565131A9915B10064815B /* CreateLayout.swift */; };
@@ -30,7 +31,6 @@
 		CACB516A1A60531500027668 /* CameraRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB51691A60531500027668 /* CameraRoll.swift */; };
 		CAD4703E1A6C42B200C01B1C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4703D1A6C42B200C01B1C /* ImageView.swift */; };
 		CAD470401A6C56DB00C01B1C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4703F1A6C56DB00C01B1C /* Models.swift */; };
-		CAED1ADF1A65AF6000CCC7B1 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED1ADE1A65AF6000CCC7B1 /* Results.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,7 @@
 /* Begin PBXFileReference section */
 		0F6017DD1A96F53E002BD9E6 /* CameraTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTwo.swift; sourceTree = "<group>"; };
 		0F6017E11A96FDCC002BD9E6 /* AVCamPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCamPreviewView.swift; sourceTree = "<group>"; };
+		0F6017E91ABA9443002BD9E6 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		24B820851A8AC8210050AC9B /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = History.swift; path = ../History.swift; sourceTree = "<group>"; };
 		845565111A990CCC0064815B /* NewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewModel.swift; sourceTree = "<group>"; };
 		845565131A9915B10064815B /* CreateLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateLayout.swift; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		CACB51691A60531500027668 /* CameraRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraRoll.swift; sourceTree = "<group>"; };
 		CAD4703D1A6C42B200C01B1C /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		CAD4703F1A6C56DB00C01B1C /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		CAED1ADE1A65AF6000CCC7B1 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +113,7 @@
 		CA6C572B1A4B8AF40059C8B9 /* project_26_SP */ = {
 			isa = PBXGroup;
 			children = (
+				0F6017E91ABA9443002BD9E6 /* Results.swift */,
 				CA6C57351A4B8AF40059C8B9 /* Main.storyboard */,
 				CACB51631A604DCE00027668 /* Camera.swift */,
 				CACB51691A60531500027668 /* CameraRoll.swift */,
@@ -122,7 +123,6 @@
 				24B820851A8AC8210050AC9B /* History.swift */,
 				CAD4703F1A6C56DB00C01B1C /* Models.swift */,
 				845565111A990CCC0064815B /* NewModel.swift */,
-				CAED1ADE1A65AF6000CCC7B1 /* Results.swift */,
 				CA4C66D81A65B66300B6B786 /* SamplePicture.swift */,
 				CA4C66DA1A65B9AE00B6B786 /* SampleOutput.swift */,
 				CA6C57331A4B8AF40059C8B9 /* ViewController.swift */,
@@ -273,7 +273,6 @@
 				845565141A9915B10064815B /* CreateLayout.swift in Sources */,
 				CAD470401A6C56DB00C01B1C /* Models.swift in Sources */,
 				0F6017E21A96FDCC002BD9E6 /* AVCamPreviewView.swift in Sources */,
-				CAED1ADF1A65AF6000CCC7B1 /* Results.swift in Sources */,
 				CAD4703E1A6C42B200C01B1C /* ImageView.swift in Sources */,
 				CA6C57341A4B8AF40059C8B9 /* ViewController.swift in Sources */,
 				845565121A990CCC0064815B /* NewModel.swift in Sources */,
@@ -282,6 +281,7 @@
 				846D0EAD1A86905100E9DF15 /* HsvConverter.swift in Sources */,
 				24B820861A8AC8210050AC9B /* History.swift in Sources */,
 				0F6017DE1A96F53E002BD9E6 /* CameraTwo.swift in Sources */,
+				0F6017EA1ABA9443002BD9E6 /* Results.swift in Sources */,
 				CA6C57321A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld in Sources */,
 				CA8A44CC1A76DFE10029D948 /* RGBA_Converter  .swift in Sources */,
 				845E56A41A87E75600F0CCFC /* SelectModel.swift in Sources */,

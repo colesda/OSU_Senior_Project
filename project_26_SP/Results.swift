@@ -10,10 +10,13 @@ import UIKit
 import AVFoundation
 
 class Results: UIViewController {
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
